@@ -1,0 +1,23 @@
+{
+  "name": "news-hompage",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FridahWatetuMuthoni/news-hompage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FridahWatetuMuthoni/news-hompage/issues"
+  },
+  "homepage": "https://github.com/FridahWatetuMuthoni/news-hompage#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

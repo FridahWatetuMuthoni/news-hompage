@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>News Homepage</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-primary text-dark fixed-top">
+      <div class="container-fluid">
+        <a class="logo" href="#">W.</a>
+        <div
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+        >
+          <span class="open-btn">&#9776;</span>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-light">
+            <h5
+              class="offcanvas-title text-dark logo"
+              id="offcanvasNavbarLabel"
+            >
+              W.
+            </h5>
+            <span
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              class="close-btn"
+            >
+              &#10761;
+            </span>
+          </div>
+          <div class="offcanvas-body bg-primary navbar-dark">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 my-5 my-md-0"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contant</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="container-lg mt-5 px-3">
+      <div class="row mt-5">
+        <div class="col-md-8 mt-5">
+          <div class="row">
+            <div class="hero-image col-12">
+              <picture>
+                <source
+                  media="(min-width:650px)"
+                  srcset="./assets/images/image-web-3-desktop.jpg"
+                />
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="" />
+              </picture>
+            </div>
+            <div class="hero-content col-12 mt-5">
+              <div class="row">
+                <div class="col-md-6 px-lg-3">
+                  <h1 class="hero-text">The Bright Future of Web 3.0?</h1>
+                </div>
+                <div class="col-md-6 mt-3 mt-md-0 px-lg-3">
+                  <p>
+                    We dive into the next evolution of the web that claims to
+                    put the power of the platforms back into the hands of the
+                    people. But is it really fulfilling its promise?
+                  </p>
+                  <button class="btn btn-danger text-light">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bg-secondary mt-5 px-4 py-3">
+          <h1 class="text-warning my-3">New</h1>
+          <div class="row">
+            <div class="col-12">
+              <h5 class="text-light">Hydrogen VS Electric Cars</h5>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <hr class="text-light my-3" />
+            <div class="col-12">
+              <h5 class="text-light">The Downsides of AI Artistry</h5>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <hr class="text-light my-3" />
+            <div class="col-12">
+              <h5 class="text-light">Is VC Funding Drying Up?</h5>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services row mt-5">
+        <div class="col-md-4 my-3 mx-md-0">
+          <div class="row">
+            <div class="col-4 col-md-8 col-lg-6 col-xl-4">
+              <div class="image">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-8 col-md-8 col-lg-6 col-xl-8">
+              <h1 class="text-muted mt-md-2">01</h1>
+              <h6>Reviving Retro PCs</h6>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-3 mx-md-0">
+          <div class="row">
+            <div class="col-4 col-md-8 col-lg-6 col-xl-4">
+              <div class="image">
+                <img src="./assets/images/image-top-laptops.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-8 col-md-8 col-lg-6 col-xl-8">
+              <h1 class="text-muted mt-md-2">02</h1>
+              <h6>Top 10 Laptops of 2022</h6>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-3 mx-md-0">
+          <div class="row">
+            <div class="col-4 col-md-8 col-lg-6 col-xl-4">
+              <div class="image">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-8 col-md-8 col-lg-6 col-xl-8">
+              <h1 class="text-muted mt-md-2">03</h1>
+              <h5>The Growth of Gaming</h5>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="w-100 d-flex align-center justify-content-center mt-5">
+        <p class="mt-xl-5">Created by fridahwatetu69@gmail.com</p>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

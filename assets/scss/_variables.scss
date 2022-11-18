@@ -1,0 +1,31 @@
+$font-family-sans-serif:'Inter',sans-serif;
+// scss-docs-start theme-color-variables
+$primary:hsl(36, 100%, 99%);
+$secondary:hsl(240, 100%, 5%) ;
+$light:hsl(36, 100%, 99%);
+
+//$success:       #613d7c;
+//$info:         #ff5b77 ;
+$warning:       hsl(35, 77%, 62%);
+$danger:       hsl(5, 85%, 63%);
+
+//custom variablees
+$background: $light; // background
+$muted-text: hsl(233, 8%, 79%); // muted text
+$text-color: hsl(236, 13%, 42%); //text-color
+$heading-color: hsl(240, 100%, 5%); // heading-text-color and backgroud
+
+//Boostarp variables override
+$body-bg:$background;
+$text-light:$text-color;
+$text-dark:$heading-color;
+$text-muted:$muted-text;
+$navbar-dark-toggler-border-color:none;
+$fs:$heading-color;
+
+
+//$link-color:$primary;
+//$input-color:$body-bg;
+//$input-bg:$light;
+
+

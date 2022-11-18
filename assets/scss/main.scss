@@ -1,0 +1,35 @@
+//variables
+@import './variables';
+
+//custom css
+p{
+    color: $text-color;
+    font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:$heading-color;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.close-btn,.open-btn,.logo{
+    color:$heading-color;
+    font-size:30px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.hero-text{
+    font-weight: bold
+}
+
+//Bootsrap imports
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
